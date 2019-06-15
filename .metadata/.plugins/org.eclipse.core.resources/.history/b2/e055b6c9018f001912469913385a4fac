@@ -1,0 +1,23 @@
+package com.example.oops;
+
+import java.util.Scanner;
+
+public final class MainProgram {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the HR SYSTEM");
+		System.out.println("--------------------------------------------------");
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the id");
+		int id = scanner.nextInt();
+		System.out.println("Enter the first Name");
+		String firstName = scanner.next();
+		System.out.println("Enter the last Name");
+		String lastName=scanner.next();
+		Employee employee = new Employee(firstName,lastName);
+		HRService hrservice = new HRService();
+		hrservice.addEmployee(employee);
+		scanner.close();
+	}
+
+}

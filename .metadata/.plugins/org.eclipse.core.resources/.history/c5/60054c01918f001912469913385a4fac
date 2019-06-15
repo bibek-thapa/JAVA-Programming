@@ -1,0 +1,15 @@
+package com.example.oops;
+
+import java.util.Scanner;
+
+public final class MainProgram {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the HR SYSTEM");
+		System.out.println("--------------------------------------------------");
+		
+		
+		scanner.close();
+	}
+
+}

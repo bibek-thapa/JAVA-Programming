@@ -1,0 +1,16 @@
+package com.example.oops;
+
+import java.util.List;
+
+public class HRService {
+
+	void addEmployee(Employee e) {}
+	
+	int removeEmployee(int id) {
+		
+		return 1;
+	}
+	
+	
+
+}

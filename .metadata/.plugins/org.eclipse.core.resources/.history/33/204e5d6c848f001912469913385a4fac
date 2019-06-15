@@ -1,0 +1,31 @@
+package com.example.oops;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Employee{
+	int id;
+	String firstName;
+	String lastName;
+	List<Role> roles;
+	Address address;
+	Phone phone;
+	
+	Employee(){}
+	
+	Employee(String firstName, String lastName,List<Role> roles,Address address , Phone phone)
+	{
+		this.firstName=firstName;
+		this.lastName=lastName;
+		roles = new LinkedList<Role>();
+		address = new Address();
+		phone = new Phone();
+		
+	}
+	
+	
+	
+	
+	
+	
+}

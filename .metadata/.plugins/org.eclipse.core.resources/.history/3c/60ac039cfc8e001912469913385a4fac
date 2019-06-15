@@ -1,0 +1,9 @@
+package com.example.oops;
+
+public class Employee implements Role{
+	int id;
+	String firstName;
+	String lastName;
+	
+	
+}

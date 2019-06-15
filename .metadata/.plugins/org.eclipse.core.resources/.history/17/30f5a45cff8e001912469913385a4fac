@@ -1,0 +1,14 @@
+package com.example.oops;
+
+public class HRService {
+
+	void addEmployee(Employee e) {}
+	
+	int removeEmployee(int id) {
+		
+		return 1;
+	}
+	
+	
+
+}

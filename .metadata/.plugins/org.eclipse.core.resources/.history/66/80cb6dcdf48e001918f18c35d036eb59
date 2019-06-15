@@ -1,0 +1,9 @@
+package com.example.oops;
+
+import java.util.Date;
+
+public class FullTime {
+	Date timeStart;
+	float baseSalaryPerYear;
+	float bonusPerYear;
+}

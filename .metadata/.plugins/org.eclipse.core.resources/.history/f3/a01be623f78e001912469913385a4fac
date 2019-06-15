@@ -1,0 +1,6 @@
+package com.example.oops;
+
+public interface Role {
+	int id;
+	String name;
+}

@@ -1,0 +1,11 @@
+package com.example.oops;
+
+public class HRService {
+
+	void addEmployee() {}
+	
+	void removeEmployee() {}
+	
+	void searchEmployee() {}
+
+}

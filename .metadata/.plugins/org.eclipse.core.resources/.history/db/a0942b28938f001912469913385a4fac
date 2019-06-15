@@ -1,0 +1,9 @@
+package com.example.oops;
+
+public class Phone {
+	int id;
+	String areaCode;
+	String number;
+	String countryCode;
+	
+}

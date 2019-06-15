@@ -1,0 +1,10 @@
+package com.example.oops;
+
+import java.util.List;
+
+public class Company {
+	int id;
+	String name;
+	List<Employee> employeeList;
+
+}

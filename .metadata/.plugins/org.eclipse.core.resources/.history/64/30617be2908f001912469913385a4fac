@@ -1,0 +1,11 @@
+package com.example.oops;
+
+import java.util.Date;
+
+public class Contractor extends Employee{
+	Date timeStart;
+	Date timeEnd;
+	float hourlyRate;
+	
+	
+}

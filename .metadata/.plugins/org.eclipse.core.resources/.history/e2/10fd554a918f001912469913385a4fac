@@ -1,0 +1,12 @@
+package com.example.oops;
+
+public class Address {
+	int id;
+	String zip;
+	String country;
+	String state;
+	String city;
+	String line1;
+	String line2;
+
+}

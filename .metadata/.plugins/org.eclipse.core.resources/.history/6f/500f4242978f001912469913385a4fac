@@ -1,0 +1,42 @@
+package com.example.oops;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Scanner;
+
+public class HRService {
+
+	List<Employee> employeeList = new LinkedList<Employee>();
+	
+	void addEmployee(Employee e) {
+		
+		employeeList.add(em);
+		
+		
+		
+	}
+
+	int removeEmployee(int id) {
+		
+		Employee em;
+		em=employeeList.get(id);
+		boolean res = employeeList.remove(em);
+		if(res ==  true) 
+		{
+			return 1;
+		}
+		else
+		
+		{
+			return 0;
+		}
+	}
+
+	
+	Employee search(int id) {
+		Employee em;
+		em =  employeeList.get(id);
+		return em;
+	}
+
+}

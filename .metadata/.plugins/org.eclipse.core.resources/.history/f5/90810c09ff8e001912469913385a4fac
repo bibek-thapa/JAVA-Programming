@@ -1,0 +1,27 @@
+package com.example.oops;
+
+import java.util.List;
+
+public class Employee{
+	int id;
+	String firstName;
+	String lastName;
+	List<Role> roles;
+	Address address;
+	Phone phone;
+	
+	Employee()
+	{
+	
+	}
+	
+	Employee(Address address1, Phone phone1)
+	{
+		this.address=address1;
+		this.phone=phone1;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,29 @@
+package com.example.oops;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class HRService {
+
+	List<Employee> employeeList= new LinkedList<Employee>();
+	void addEmployee(Employee e)
+	{
+		employeeList.add(e);
+		
+	}
+	
+	int removeEmployee(int id) {
+		
+		employeeList.remove(id);
+		
+		return 1;
+	}
+	
+	List<Employee> viewEmployee()
+	{
+		return employeeList.get(1);
+	}
+	
+	
+
+}
