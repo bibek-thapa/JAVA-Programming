@@ -24,9 +24,9 @@ public class HRService {
 		
 		Employee em;
 		em=employeeList.get(id-1);
-//		System.out.println(em.firstName);
-//		System.out.println(em.getRoles());
-//		System.out.println(em.getAddress().country);
+		System.out.println(em.firstName);
+		System.out.println(em.getRoles());
+		System.out.println(em.getAddress().country);
 		boolean res = employeeList.remove(em);
 		if(res ==  true) 
 		{

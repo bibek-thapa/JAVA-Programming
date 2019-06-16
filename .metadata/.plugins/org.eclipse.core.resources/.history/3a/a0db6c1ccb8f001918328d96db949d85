@@ -9,24 +9,17 @@ public class HRService {
 	
 	void addEmployee(Employee e) {
 		
-		if(e!=null) {
-		employeeList.add(e);
-		System.out.println("Employee succesfully created");
-		}
-		else 
-		{
-			System.out.println("Employee cannot be blank");
-		}
+		employeeList.add(e);	
 		
+		System.out.println("Employee succesfully created");
 	}
 
 	int removeEmployee(int id) {
 		
 		Employee em;
-		em=employeeList.get(id-1);
-//		System.out.println(em.firstName);
-//		System.out.println(em.getRoles());
-//		System.out.println(em.getAddress().country);
+		em=employeeList.get(id);
+		System.out.println(em.firstName);
+		System.out.println(em.getRoles());
 		boolean res = employeeList.remove(em);
 		if(res ==  true) 
 		{

@@ -1559,3 +1559,34 @@ java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0
 !ENTRY org.eclipse.jdt.debug 4 4 2019-06-15 15:49:43.877
 !MESSAGE The method toArray() is undefined for the type Collection___
 
+
+!ENTRY org.eclipse.core.resources 2 2 2019-06-15 18:41:41.394
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-06-15 18:41:41.395
+!MESSAGE The project description file (.project) for 'Test' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.jdt.debug 4 4 2019-06-15 19:03:30.172
+!MESSAGE The method toArray() is undefined for the type Collection___
+
+
+!ENTRY org.eclipse.jdt.debug 4 4 2019-06-15 19:04:45.485
+!MESSAGE The method toArray() is undefined for the type Collection___
+
+
+!ENTRY org.eclipse.jdt.debug 4 4 2019-06-15 19:06:17.605
+!MESSAGE The method toArray() is undefined for the type Collection___
+
+
+!ENTRY org.eclipse.jdt.debug 4 120 2019-06-15 19:06:26.425
+!MESSAGE Exception processing async thread queue
+!SUBENTRY 1 org.eclipse.jdt.debug 4 120 2019-06-15 19:06:26.425
+!MESSAGE Exception processing async thread queue
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0
+	at org.eclipse.jdt.internal.debug.eval.ast.engine.EvaluationSourceGenerator.getCompleteSnippet(EvaluationSourceGenerator.java:145)
+	at org.eclipse.jdt.internal.debug.eval.ast.engine.EvaluationSourceGenerator.<init>(EvaluationSourceGenerator.java:71)
+	at org.eclipse.jdt.internal.debug.eval.ast.engine.ASTEvaluationEngine.getCompiledExpression(ASTEvaluationEngine.java:363)
+	at org.eclipse.jdt.internal.debug.eval.ast.engine.ASTEvaluationEngine.evaluate(ASTEvaluationEngine.java:145)
+	at org.eclipse.jdt.internal.debug.ui.JavaWatchExpressionDelegate$EvaluationRunnable.run(JavaWatchExpressionDelegate.java:153)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$ThreadJob.run(JDIThread.java:3606)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

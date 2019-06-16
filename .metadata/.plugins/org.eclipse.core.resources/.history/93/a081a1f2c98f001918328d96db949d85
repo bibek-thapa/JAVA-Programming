@@ -32,46 +32,15 @@ public final class MainProgram {
 			String firstName = sc.next();
 			System.out.println("Enter the lastName");
 			String lastName = sc.next();
-			System.out.println("Enter the role id");
+			System.out.println("Enter the role");
 			int roleId=sc.nextInt();
 			System.out.println("Enter the role name");
 			String roleName = sc.next();
 			Role role = new Role(roleId,roleName);
 			List<Role> roleList = new LinkedList<Role>();
 			roleList.add(role);
-			
-			System.out.println("Enter the phone id");
-			int phoneId =  sc.nextInt();
-			System.out.println("Enter the areacode");
-			String phoneAreaCode =  sc.next();
-			System.out.println("Enter the countrycode");
-			String countryCode = sc.next();
-			System.out.println("Enter the number");
-			String number = sc.next();
-			
-			Phone phone = new Phone(phoneId,phoneAreaCode,countryCode,number);
-			
-			System.out.println("Enter the address id");
-			int addressId =  sc.nextInt();
-			System.out.println("Enter the zip");
-			String zip =  sc.next();
-			System.out.println("Enter the country");
-			String country =  sc.next();
-			System.out.println("Enter the state");
-			String state =  sc.next();
-			System.out.println("Enter the city");
-			String city =  sc.next();
-			System.out.println("Enter the line1");
-			String line1 =  sc.next();
-			System.out.println("Enter the line2");
-			String line2 =  sc.next();
-			Address address = new Address(addressId,zip,country,state,city,line1,line2);
-			
-			
 			Employee em =  new Employee(id, firstName, lastName);
 			em.setRoles(roleList);
-			em.setPhone(phone);
-			em.setAddress(address);
 			service.addEmployee(em);
 			
 			break;

@@ -23,10 +23,10 @@ public class HRService {
 	int removeEmployee(int id) {
 		
 		Employee em;
-		em=employeeList.get(id-1);
-//		System.out.println(em.firstName);
-//		System.out.println(em.getRoles());
-//		System.out.println(em.getAddress().country);
+		em=employeeList.get(id);
+		System.out.println(em.firstName);
+		System.out.println(em.getRoles());
+		System.out.println(em.getAddress());
 		boolean res = employeeList.remove(em);
 		if(res ==  true) 
 		{
