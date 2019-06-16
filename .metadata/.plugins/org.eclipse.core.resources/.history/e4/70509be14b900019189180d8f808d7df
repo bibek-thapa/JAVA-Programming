@@ -1,0 +1,45 @@
+package com.example.oops;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HRService {
+
+//	List<Employee> employeeList = new LinkedList<Employee>();
+	Map<Integer,Employee> employeeMap = new HashMap<Integer,Employee>();
+	void addEmployee(Employee e) {
+		
+		if(e!=null) {
+		employeeMap.put(e.getId(), e);
+		System.out.println("Employee succesfully created");
+		}
+		else 
+		{
+			System.out.println("Employee cannot be blank");
+		}
+		
+	}
+
+	int removeEmployee(int id) {
+		
+	
+//		System.out.println(em.firstName);
+//		System.out.println(em.getRoles());
+//		System.out.println(em.getAddress().country);
+		employeeMap.remove(id);
+		System.out.println("Employee succesfully removed");
+		return 1;
+		
+	}
+	
+	Employee search(int id) 
+	{
+		Employee em = employeeMap.get(id);
+		System.out.println(em.firstName);
+		return em;
+	}
+
+	
+	
+
+}

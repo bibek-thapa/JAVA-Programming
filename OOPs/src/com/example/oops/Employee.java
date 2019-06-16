@@ -22,6 +22,14 @@ public class Employee{
 	}
 	
 	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public Address getAddress() {
 		return address;
 	}
@@ -44,6 +52,13 @@ public class Employee{
 	public void setRoles(List<Role> roles) {
 		this.roles = roles;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", roles=" + roles
+				+ ", address=" + address + ", phone=" + phone + "]";
+	}
+	
 	
 	
 	

@@ -1,17 +1,22 @@
 package com.example.oops;
 
-import java.util.LinkedList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-public class HRService {
+public class HRService
+{
 
-	List<Employee> employeeList = new LinkedList<Employee>();
-	
-	void addEmployee(Employee e) {
+//	List<Employee> employeeList = new LinkedList<Employee>();
+	List<Employee> employeeList;
+	Map<Integer,Employee> employeeMap = new HashMap<Integer,Employee>();
+	void addEmployee(Employee e) 
+	{
 		
-		if(e!=null) {
-		employeeList.add(e);
-		System.out.println("Employee succesfully created");
+		if(e!=null)
+		{
+			employeeMap.put(e.getId(), e);
+			System.out.println("Employee succesfully created");
 		}
 		else 
 		{
@@ -20,30 +25,30 @@ public class HRService {
 		
 	}
 
-	int removeEmployee(int id) {
+	int removeEmployee(int id) 
+	{
 		
-		Employee em;
-		em=employeeList.get(id-1);
-//		System.out.println(em.firstName);
-//		System.out.println(em.getRoles());
-//		System.out.println(em.getAddress().country);
-		boolean res = employeeList.remove(em);
-		if(res ==  true) 
-		{
-			return 1;
-		}
-		else
+		employeeMap.remove(id);
+		System.out.println("Employee succesfully removed");
+		return 1;
 		
-		{
-			return 0;
-		}
+	}
+	
+	Employee search(int id) 
+	{
+		Employee em = employeeMap.get(id);	
+		return em;					
+		
 	}
 
-	
-	Employee search(int id) {
-		Employee em;
-		em =  employeeList.get(id);
-		return em;
+	List<Employee> search(String firstName,String lastName)
+	{
+		
+			
+		return employeeList;
+		
 	}
+	
+	
 
 }
