@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HRServiceTest" project="OOPs" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.test.HRServiceTest" time="0.06">
+    <testcase name="testAddNullEmployee" classname="com.example.test.HRServiceTest" time="0.001"/>
+    <testcase name="testsearchEmployee" classname="com.example.test.HRServiceTest" time="0.002"/>
+    <testcase name="testremoveEmployee" classname="com.example.test.HRServiceTest" time="0.0"/>
+    <testcase name="testAddEmployee" classname="com.example.test.HRServiceTest" time="0.004"/>
+    <testcase name="testContractor" classname="com.example.test.HRServiceTest" time="0.05"/>
+    <testcase name="testsearchEmployeeByFirstNameAndLastName" classname="com.example.test.HRServiceTest" time="0.001"/>
+    <testcase name="testCompany" classname="com.example.test.HRServiceTest" time="0.002"/>
+    <testcase name="testFullTime" classname="com.example.test.HRServiceTest" time="0.001"/>
+  </testsuite>
+</testrun>

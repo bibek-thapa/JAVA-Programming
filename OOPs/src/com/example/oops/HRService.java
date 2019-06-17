@@ -1,16 +1,18 @@
 package com.example.oops;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class HRService
 {
 
 //	List<Employee> employeeList = new LinkedList<Employee>();
-	List<Employee> employeeList;
+	
 	Map<Integer,Employee> employeeMap = new HashMap<Integer,Employee>();
-	void addEmployee(Employee e) 
+	public void addEmployee(Employee e) 
 	{
 		
 		if(e!=null)
@@ -25,7 +27,7 @@ public class HRService
 		
 	}
 
-	int removeEmployee(int id) 
+	public int removeEmployee(int id) 
 	{
 		
 		employeeMap.remove(id);
@@ -34,17 +36,27 @@ public class HRService
 		
 	}
 	
-	Employee search(int id) 
+	public Employee search(int id) 
 	{
 		Employee em = employeeMap.get(id);	
+		System.out.println("Employee with " + id +" is succesfully searched");
 		return em;					
 		
 	}
 
-	List<Employee> search(String firstName,String lastName)
+	public List<Employee> search(String firstName,String lastName)
 	{
-		
-			
+		List<Employee> employeeList= new LinkedList<Employee>();
+		for(Entry<Integer,Employee> entry : employeeMap.entrySet()) 
+		{
+			System.out.println(entry.getValue().firstName);
+			if(entry.getValue().firstName.equals(firstName) && entry.getValue().lastName.equals(lastName)) 
+			{
+				employeeList.add(entry.getValue());
+			}
+		}
+
+		System.out.println("The employees are succesfully searched");
 		return employeeList;
 		
 	}

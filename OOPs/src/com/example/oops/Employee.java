@@ -10,9 +10,9 @@ public class Employee{
 	Address address;
 	Phone phone;
 	
-	Employee(){}
+	public Employee(){}
 	
-	Employee(int id,String firstName, String lastName)
+	public Employee(int id,String firstName, String lastName)
 	{
 		this.id=id;
 		this.firstName=firstName;
@@ -26,9 +26,7 @@ public class Employee{
 		return id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 
 	public Address getAddress() {
 		return address;
