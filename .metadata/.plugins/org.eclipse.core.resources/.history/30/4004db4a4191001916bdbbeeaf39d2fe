@@ -32,7 +32,6 @@ public class HRService
 		
 		employeeMap.remove(id);
 		System.out.println("Employee succesfully removed");
-		
 		return 1;
 		
 	}

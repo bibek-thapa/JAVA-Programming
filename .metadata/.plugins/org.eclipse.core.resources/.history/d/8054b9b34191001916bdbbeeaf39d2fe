@@ -30,10 +30,13 @@ public class HRService
 	public int removeEmployee(int id) 
 	{
 		
-		employeeMap.remove(id);
+		if(employeeMap.remove(id)!=null) {
 		System.out.println("Employee succesfully removed");
-		
 		return 1;
+		}
+		else {
+		return 0;
+		}
 		
 	}
 	
