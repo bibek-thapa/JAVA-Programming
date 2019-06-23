@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="com.example.oops.Address"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.example.oops.Employee"/>
     <fullyQualifiedTypeName name="com.example.oops.HRService"/>
+    <fullyQualifiedTypeName name="com.example.oops.Address"/>
+    <fullyQualifiedTypeName name="com.example.oops.Phone"/>
+    <fullyQualifiedTypeName name="com.example.oops.Role"/>
+    <fullyQualifiedTypeName name="com.example.oops.Company"/>
+    <fullyQualifiedTypeName name="com.example.oops.Contractor"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.example.oops.FullTime"/>
+    <fullyQualifiedTypeName name="com.example.oops.MainProgram"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.example.sorting.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.example.sorting.SortingService"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.collection.MimicSetService"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.person.PersonFixture"/>
+    <fullyQualifiedTypeName name="com.person.test.PersonServiceTest"/>
+    <fullyQualifiedTypeName name="com.person.PersonService"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

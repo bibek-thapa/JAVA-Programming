@@ -9,9 +9,9 @@ import java.util.Map.Entry;
 public class HRService
 {
 
-//	List<Employee> employeeList = new LinkedList<Employee>();
+
 	
-	Map<Integer,Employee> employeeMap = new HashMap<Integer,Employee>();
+	Map<Integer,Employee> employeeMap = new HashMap<>();
 	public void addEmployee(Employee e) 
 	{
 		
@@ -47,7 +47,7 @@ public class HRService
 
 	public List<Employee> search(String firstName,String lastName)
 	{
-		List<Employee> employeeList= new LinkedList<Employee>();
+		List<Employee> employeeList= new LinkedList<>();
 		for(Entry<Integer,Employee> entry : employeeMap.entrySet()) 
 		{
 			System.out.println(entry.getValue().firstName);

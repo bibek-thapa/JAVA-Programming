@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="HRServiceTest" project="OOPs" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.test.HRServiceTest" time="0.004">
-    <testcase name="testAddNullEmployee" classname="com.example.test.HRServiceTest" time="0.0"/>
-    <testcase name="testsearchEmployee" classname="com.example.test.HRServiceTest" time="0.003"/>
-    <testcase name="testremoveEmployee" classname="com.example.test.HRServiceTest" time="0.0"/>
-    <testcase name="testAddEmployee" classname="com.example.test.HRServiceTest" time="0.001"/>
-  </testsuite>
-</testrun>
