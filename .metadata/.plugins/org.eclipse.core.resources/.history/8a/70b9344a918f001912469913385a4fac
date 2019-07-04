@@ -1,9 +1,0 @@
-package com.example.oops;
-
-import java.util.Date;
-
-public class FullTime extends Employee{
-	Date timeStart;
-	float baseSalaryPerYear;
-	float bonusPerYear;
-}

@@ -1,8 +1,0 @@
-package com.example.oops;
-
-public class Role {
-	int id;
-	String name;
-	
-	
-}
