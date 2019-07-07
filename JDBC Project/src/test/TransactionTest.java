@@ -38,8 +38,8 @@ class TransactionTest {
 	{
 		
 		TransactionServiceImpl transactionService = new TransactionServiceImpl();
-		Transaction transaction = transactionService.find(6l);
-		assertEquals(1, transaction.getAccount().getId());    
+		Transaction transaction = transactionService.find(4l);
+		assertEquals(2, transaction.getAccount().getId());    
 		   
 	}
 	

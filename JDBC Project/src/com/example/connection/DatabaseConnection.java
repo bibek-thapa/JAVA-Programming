@@ -15,7 +15,7 @@ public class DatabaseConnection {
 
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 
-		dataSource.setUrl("jdbc:mysql://localhost/JDBC_HW");
+		dataSource.setUrl("jdbc:mysql://localhost/JDBC_HW1");
 
 		dataSource.setUsername("root");
 
